@@ -40,3 +40,14 @@ a {
 a:hover {
   color: rgb(129, 171, 113);
 }
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
