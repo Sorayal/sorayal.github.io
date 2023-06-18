@@ -43,11 +43,26 @@ a:hover {
 
 .centered-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column; /*ensures that the items are arranged vertically within the container. */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  /* height: 100vh;*/ /* Set the container height to viewport height */
+
+  font-family: "Courgette";
+  font-size: 22px;
 }
 
 .navbar {
   display: flex;
   align-items: center;
+}
+
+table {
+  width: 50%;
+  table-layout: auto;
+}
+
+.table-container {
+  max-height: 100px; /* adjust the max height according to your needs */
+  overflow-y: auto;
 }
