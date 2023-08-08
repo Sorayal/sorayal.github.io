@@ -35,6 +35,7 @@ li {
 
 a {
   text-decoration: none;
+  color: #9932cc;
 }
 
 a:hover {
@@ -50,6 +51,28 @@ a:hover {
 
   font-family: "Courgette";
   font-size: 22px;
+}
+
+.centered-content table {
+  border-collapse: collapse; /* Merge table borders */
+  border: 2px solid black; /* Add a border to the table */
+}
+
+.centered-content th,
+.centered-content td {
+  border: 1px solid black; /* Add borders to table cells */
+  padding: 8px; /* Add some padding to cells for spacing */
+}
+
+.collapsed {
+  max-height: 0;
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.collapsible-header:hover {
+  background-color: #ccc;
 }
 
 .navbar {
